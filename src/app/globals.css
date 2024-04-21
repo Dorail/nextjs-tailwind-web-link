@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s ease;
+}
+
+body {
+  background-color: #111;
+}
+
+#Nav {
+  border: 1px solid #333;
+}
+
+#Rive {
+  letter-spacing: 1vw;
+  text-transform: uppercase;
+}
+
+#Hero {
+  /* height: 90vh; */
+}
+
+#Hero2 {
+  /* height: 75vh; */
+}
+
+#Banner {
+  height: 75vh;
+  background: linear-gradient(99deg, #1D1D1D, #7068DE, #61A9D6);
+}
+
+#Bannerloadpage {
+  height: 75vh;
+  background-color: #000;
+}
+
+#Bannerloadpage2 {
+  height: 75vh;
+  background-color: #1D1D1D;
+}
+
+#Bannerloadpage3 {
+  height: 75vh;
+  background-color: #0F0F0F;
+}
+
+#Bannerloadpage4 {
+  height: 75vh;
+  background-color: #1D1D1D;
+}
+
+#BannerPricingpage {
+  height: 75vh;
+  background-color: #0F0F0F;
+}
+
+#Banner2 {
+  height: 75vh;
+  background: linear-gradient(99deg, #1D1D1D, #34103D, #1D1D1D);
+}
+
+#Ban2Right {
+  left: 11vw;
+}
+
+#Ban22Right {
+  top: 3vw;
+  left: 19vw;
+}
+
+#Ban222Right {
+  top: 3vw;
+  left: 13vw;
+}
+
+
+
+#Banner3 {
+  height: 75vh;
+  background: linear-gradient(99deg, #1D1D1D, #1EC9F2, #0DB16A);
+}
+
+#Main {
+  /* height: 120vh; */
+  background-color: #111;
+}
+
+#Main2 {
+  /* height: 75vh; */
+  background-color: #111;
+}
+
+#Footer {
+  background-color: #111;
+}
+
+/* FOOTER ------------------------------------START */
+
+.top-footer{
+  border-top: 0.1vw solid #333;
+  border-bottom: 0.1vw solid #333;
+  margin-top: 5vw;
+}
+
+footer {
+  padding: 1vw 0vw;
+}
+
+.footer-icon {
+  animation: iconGit 4s infinite;
+}
+
+.footer-icon a {
+  font-size: 3vw;
+  text-decoration: none;
+  font-size: 3vw;
+}
+
+@keyframes iconGit {
+  0%{
+      transform: translateY(10px);
+  }
+  50%{
+      transform: translateY(-2px);
+  }
+  100%{
+      transform: translateY(10px);
+  }
+}
+
+.footer-icon a:hover {
+  opacity: 50%;
+}
+
+.footer-text a {
+  font-size: 1vw;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+}
+
+.footer-text a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-left: 2px solid #fff;
+  background-color: #111;
+  animation: footerTyping 6s steps(40) infinite;
+}
+
+@keyframes footerTyping {
+  70%{
+      left: 100%;
+      margin: 0 1vw;
+  }
+}
+
+/* FOOTER ------------------------------------END */
+
+#imgLoadpage1 {
+  z-index: -8;
+}
+
