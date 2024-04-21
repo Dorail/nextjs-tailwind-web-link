@@ -1,6 +1,9 @@
+https://streamable.com/afex57 //
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+
+[ download npm => npx create-next-app@latest test => keep folder .node_modules => npm i react-icons ]
 
 First, run the development server:
 
