@@ -1,4 +1,4 @@
-https://streamable.com/afex57 //
+<a href="https://nextjs-tailwind-web2.netlify.app/">DEMO WEB</a> //
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
